@@ -1,3 +1,6 @@
-export function sum(a: number, b: number) {
+/**
+ * sum
+ */
+export function sum(a: string, b: number) {
   return a + b
 }
