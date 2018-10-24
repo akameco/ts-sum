@@ -13,10 +13,8 @@
     "fmt": "prettier --write '**/*.{ts,js,json,md}'",
     "type-check": "tsc --noEmit",
     "build": "NODE_ENV=production babel src -d lib --extensions '.ts,.tsx'",
-    "watch": "tsc -p . --watch",
     "test": "jest",
-    "test:cov": "jest --coverage --ci --runInBand src",
-    "test:ci": "yarn test:cov"
+    "test:ci": "jest --coverage --ci --runInBand src"
   },
   "lint-staged": {
     "*.{js,json,md}": [
@@ -39,12 +37,9 @@
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-typescript": "^7.1.0",
     "@types/jest": "^23.3.7",
     "all-contributors-cli": "^5.4.1",
+    "babel-preset-zero": "^0.6.0",
     "husky": "^1.1.2",
     "jest": "^23.6.0",
     "lint-staged": "^7.3.0",
