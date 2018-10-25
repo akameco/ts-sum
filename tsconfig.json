@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "module": "commonjs",
     "moduleResolution": "node",
-    "newLine": "LF",
-    "outDir": "./lib/",
-    "target": "es2015",
-    "sourceMap": true,
+    "target": "esnext",
+    "outDir": "lib",
     "declaration": true,
     "jsx": "preserve",
-    "lib": ["es2017", "dom"],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
