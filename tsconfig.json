@@ -1,15 +1,6 @@
 {
+  "extends": "@akameco/tsconfig",
   "compilerOptions": {
-    "moduleResolution": "node",
-    "target": "esnext",
-    "outDir": "lib",
-    "declaration": true,
-    "jsx": "preserve",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "include": ["src"]
+    "outDir": "lib"
+  }
 }
